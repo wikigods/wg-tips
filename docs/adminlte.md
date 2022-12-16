@@ -18,20 +18,22 @@ To deactivate verification of foreign keys.
       <div class="card-header with-border">
         <i class="fa fa-pencil-square-o"></i> CreateOrEdit
       </div>
-      <div class="card-body">
-        
-        <div class="mb-3">
-          <label for="title">Title</label>
-          <input type="text" class="form-control" id="title" aria-describedby="title" placeholder="Title">
+      <form action="#" method="POST">
+        <div class="card-body">
+          
+          <div class="mb-3">
+            <label for="title">Title</label>
+            <input type="text" class="form-control" id="title" aria-describedby="title" placeholder="Title">
+          </div>
+          
+          <div class="mb-3">
+            <label for="content">Content</label>
+            <textarea class="form-control" id="content" rows="3"></textarea>
+          </div>
+          
         </div>
-        
-        <div class="mb-3">
-          <label for="content">Content</label>
-          <textarea class="form-control" id="content" rows="3"></textarea>
-        </div>
-        
-      </div>
-      <!-- /.panel-body -->
+      </form>
+      <!-- /.card-body -->
       <div class="card-footer">
         <div class="float-right">
           <a href="#" class="btn btn-sm btn-default">Back</a>
