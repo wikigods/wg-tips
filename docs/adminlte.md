@@ -20,25 +20,22 @@ To deactivate verification of foreign keys.
       </div>
       <div class="card-body">
         
-        <div class="form-group">
-          {{Form::label('name', Lang::get('messages.admin.manga.create.manga-name'))}}
-          {{Form::text('name','', array('class' => 'form-control'))}}
-          {!! $errors->first('name', '<label class="error" for="name">:message</label>') !!}
+        <div class="mb-3">
+          <label for="title">Title</label>
+          <input type="text" class="form-control" id="title" aria-describedby="title" placeholder="Title">
         </div>
         
-        <div class="form-group">
-          {{Form::label('summary', Lang::get('messages.admin.manga.create.summary'))}}
-          {{Form::textarea('summary', '', array('class' => 'form-control', 'rows' => '5'))}}
+        <div class="mb-3">
+          <label for="content">Content</label>
+          <textarea class="form-control" id="content" rows="3"></textarea>
         </div>
         
       </div>
       <!-- /.panel-body -->
       <div class="card-footer">
         <div class="float-right">
-          {{ link_to_route('admin.manga.index', Lang::get('messages.admin.manga.back'), [], array('class' => 'btn btn-default btn-xs')) }}
-          
-          {{Form::submit(Lang::get('messages.admin.manga.create-manga'), array('class' => 'btn btn-primary btn-xs'))}}
-          
+          <a href="#" class="btn btn-sm btn-default">Back</a>
+          <button type="submit" class="btn btn-sm btn-primary">Submit</button>
         </div>
       </div>
     </div>
