@@ -11,7 +11,7 @@
 
 To deactivate verification of foreign keys.
 
-```bash
+```php
 DB::statement('SET FOREIGN_KEY_CHECKS=0;');
 ```
 
@@ -21,7 +21,7 @@ DB::statement('SET FOREIGN_KEY_CHECKS=0;');
 
 An accessor transforms an Eloquent attribute value when it is accessed.
 
-```bash
+```php
 /**
  * Get the user's password.
  *
