@@ -1,3 +1,4 @@
 # Tips
 
-[Laravel](/wg-tips/laravel.html)
+- [Laravel](/wg-tips/laravel.html)
+- [AdminLte](/wg-tips/adminlte.html)

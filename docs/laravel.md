@@ -1,4 +1,6 @@
-# Code Laravel
+# Laravel
+
+[Back](/wg-tips/index.html)
 
 - [database](#database)
   - [DatabaseSeeder](#databaseseeder)
