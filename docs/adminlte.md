@@ -7,9 +7,9 @@
 
 <a name="form"></a>
 <a name="createoredit"></a>
-## DatabaseSeeder
+## CreateOrEdit
 
-To deactivate verification of foreign keys.
+Basic form for bootstrap 4 and AdminLte
 
 ```html
 <div class="row">
