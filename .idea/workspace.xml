@@ -150,12 +150,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/assets" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\wg-tips\docs\assets" />
       <recent name="C:\laragon\www\wg-tips" />
     </key>
   </component>
@@ -175,7 +176,7 @@
       <updated>1668627738457</updated>
       <workItem from="1668627739720" duration="32417000" />
       <workItem from="1668741719815" duration="4000" />
-      <workItem from="1671206434162" duration="721000" />
+      <workItem from="1671206434162" duration="1146000" />
     </task>
     <servers />
   </component>
