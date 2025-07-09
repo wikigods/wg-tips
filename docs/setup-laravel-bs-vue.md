@@ -48,7 +48,18 @@ css: {
   },
 },
 ```
-Agregar admin-lv
+## Agregar admin-lv
+Agregar los siguientes paquetes `package.json`:
+```bash
+npm install @fortawesome/fontawesome-free @selectize/selectize fs-extra admin-lv flatpickr jquery toastr sweetalert2@~11.3.10 --save-dev
+```
+Luego ejecutar:
+
+```bash
+npm run build
+```
+luego Descargar los siguientes archivos preparados para 
+[`admin-lv`](/wg-tips/admin-lv/admin-lv.zip) copialos en mismo orden que tienen :
 En el archivo vite.config.js
 agregar estas lineas
 ```js
