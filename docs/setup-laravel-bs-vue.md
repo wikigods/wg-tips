@@ -68,6 +68,10 @@ agregar estas lineas
 ```
 en archivo routes\web.php
 modificar  
-```php return view('welcome'); ```
+```php 
+return view('welcome'); 
+```
 a
-```php return view('admin.index'); ```
+```php
+ return view('admin.index'); 
+ ```
