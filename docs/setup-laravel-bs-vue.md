@@ -91,8 +91,8 @@ luego Descargar los siguientes archivos preparados para
 En el archivo vite.config.js
 agregar estas lineas
 ```js
-'resources/sass/admin/app.scss',
-'resources/js/admin/app.js',
+'resources/sass/admin.scss',
+'resources/js/admin.js',
 ```
 en archivo routes\web.php
 modificar  
